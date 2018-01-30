@@ -14,6 +14,7 @@ public class CateServiceImpl implements ICateService {
 	@Override
 	public Map<Categories,List<Categories>> getCategories() {
 
+		System.out.println("111");
 		Map<Categories,List<Categories>> cMap=null;
 		try {
 			cMap = icd.getCate();
